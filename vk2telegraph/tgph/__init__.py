@@ -1,7 +1,7 @@
 import telegraph as _tgph
 
 class Postman:
-    def __init__(self, header: str, post: str, username: str = 'Anonymous', author_name: str | None = None, author_url: str | None = None, ):
+    def __init__(self, header: str, post: str, username: str = 'Anonymous', author_name: str = None, author_url: str = None, ):
         self.__postman = _tgph.Telegraph()
         self.__postman.create_account(short_name=username, author_name=author_name, author_url=author_url)
         self.__post = post

@@ -1,10 +1,12 @@
 import requests as _requests
 import fake_useragent as _fake_useragent
 
+
 def _is_valid_url(url: str) -> bool:
     if 'vk.com/@' not in url:
         return False
     return True
+
 
 def get(url: str) -> str:
     user_agent = _fake_useragent.UserAgent()

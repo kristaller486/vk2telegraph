@@ -10,13 +10,13 @@ To install Python Fire with pip, run: `pip install vk2telegraph`
 
 You can create telegra.ph arcticle:
 ```bash
-pythom -m vk2telegraph [url]
+python -m vk2telegraph [url]
 ```
 
 For example
 
 ```bash
-pythom -m vk2telegraph https://vk.com/@sample-article
+python -m vk2telegraph https://vk.com/@sample-article
 ```
 
 ## License

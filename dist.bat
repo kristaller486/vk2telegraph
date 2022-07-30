@@ -1,3 +1,3 @@
-py setup.py sdist
-py setup.py bdist
-py setup.py bdist_wheel
+python setup.py sdist
+python setup.py bdist
+python setup.py bdist_wheel

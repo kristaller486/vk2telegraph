@@ -9,7 +9,7 @@ def _is_valid_url(url: str) -> bool:
 
 def get(url: str) -> str:
     if not _is_valid_url(url):
-        raise ValueError('URL "{url}" not contain VK article')
+        raise ValueError('URL "{url}" not contain VK article') # TODO: add --force flag for ignore this exception
     with _rq.Session() as session:
         post = session.get(url)
     return post.text

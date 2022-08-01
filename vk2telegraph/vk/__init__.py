@@ -75,8 +75,8 @@ class _Cleaner: # TODO: fix this
 
 
 class VKPost:
-    def __init__(self, url: str):
-        html_post = _backend.get(url)
+    def __init__(self, url: str, force=False):
+        html_post = _backend.get(url, force=force)
         self.__content: str = html_post
         self.__html = _bs4.BeautifulSoup(self.__content, 'html.parser')
         self.__header: str = self.__extract_header()

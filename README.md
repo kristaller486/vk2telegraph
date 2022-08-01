@@ -4,7 +4,7 @@ _A simple script that publishes articles from VK in Telegra.ph_
 
 ## Installation
 
-To install Python Fire with pip, run: `pip install vk2telegraph`
+To install vk2telegraph with pip, run: `pip install vk2telegraph`
 
 ## Usage
 

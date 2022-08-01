@@ -1,4 +1,4 @@
-# Python Fire [![PyPI](https://img.shields.io/pypi/pyversions/vk2telegraph.svg?style=plastic)](https://github.com/kristaller486/vk2telegraph)
+# VK2TELEGRAPH [![PyPI](https://img.shields.io/pypi/pyversions/vk2telegraph.svg?style=plastic)](https://github.com/kristaller486/vk2telegraph)
 
 _A simple script that publishes articles from VK in Telegra.ph_
 

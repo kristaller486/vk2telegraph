@@ -20,7 +20,7 @@ setuptools.setup(
     long_description=readme,
     long_description_content_type='text/markdown',
     url='https://github.com/kristaller486/vk2telegraph',
-    packages = PACKAGES,
+    packages=PACKAGES,
     keywords=['vk', 'telegraph', 'vk posts', 'telegra.ph'],
     classifiers=[
         'Development Status :: 4 - Beta',

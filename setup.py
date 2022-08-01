@@ -14,7 +14,7 @@ PACKAGES = [
 
 setuptools.setup(
     name='vk2telegraph',
-    version='0.1',
+    version='0.2',
     author='Kristaller',
     description='This script translate VK articles to Telegra.ph posts',
     long_description=readme,

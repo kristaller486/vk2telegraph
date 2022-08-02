@@ -1,4 +1,5 @@
 import telegraph as _tgph
+from typing import Optional, Any
 
 
 class Postman:
@@ -11,7 +12,7 @@ class Postman:
         self.__pages: list = []
         self.__last_page: None | dict = None
 
-    def publish(self) -> int:
+    def publish(self) -> Optional[Any]:
         self.__last_page = self.__postman.create_page(title=self.__post_header, html_content=self.__post)
         self.__pages.append(self.__last_page)
         return self.__last_page
